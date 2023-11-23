@@ -1,28 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>To Do App</title>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>To Do App</title>
 </head>
 <body>
   <div class="container">
-    <h1>Think</h1>
-    <div class="search-bar">
-      <i class="material-icons">search</i>
-      <input type="text" placeholder="Search for tasks">
-    </div>
-    <div class="filters">
+      <h1>To Do App</h1>
+      <div class="controls">
+        <input type="text" placeholder="Enter Your Task">
+        <button type="button" id="add"><img src="https://img.icons8.com/fluency/30/000000/add.png"/> Add</button>
+        <!-- <button type="button" id="remove"><img src="https://img.icons8.com/fluency/30/000000/filled-trash.png"/> Remove</button> -->
+      </div>
       <ul>
-        <li>All</li>
-        <li>Active</li>
-        <li>Completed</li>
+        <li>
+          <input type="checkbox" checked>
+          <label>10 min meditation</label>
+        </li>
       </ul>
     </div>
-    <div class="task-group">
-    </div>
-    <button class="add-task"><i class="material-icons">add</i></button>
-  </div>
+    <script src="main.js"></script>
 </body>
+
 </html>
